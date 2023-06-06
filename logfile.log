@@ -1,0 +1,48 @@
+2023-06-06 16:42:59,498 INFO  [Log] search_a_product() PASSED 
+2023-06-06 16:43:08,892 INFO  [Log] select_a_product() PASSED 
+2023-06-06 16:43:11,915 INFO  [Log] add_product_to_cart() PASSED 
+2023-06-06 16:43:14,811 ERROR [Log] go_to_cart() FAILED with cause : Product was not added to cart! ==> expected: <true> but was: <false> 
+2023-06-06 16:47:53,881 ERROR [Log] search_a_product() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#sp\-cc\-accept"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAFA', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\safa_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 994c7773d24a16f0ffebf9d6775f811a
+*** Element info: {Using=id, value=sp-cc-accept} 
+2023-06-06 16:47:54,150 ERROR [Log] select_a_product() FAILED with cause : null 
+2023-06-06 16:47:54,183 ERROR [Log] add_product_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAFA', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\safa_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 994c7773d24a16f0ffebf9d6775f811a
+*** Element info: {Using=id, value=add-to-cart-button} 
+2023-06-06 16:47:58,824 ERROR [Log] go_to_cart() FAILED with cause : Product was not added to cart! ==> expected: <true> but was: <false> 
+2023-06-06 16:48:45,173 INFO  [Log] search_a_product() PASSED 
+2023-06-06 16:48:53,062 INFO  [Log] select_a_product() PASSED 
+2023-06-06 16:48:58,208 INFO  [Log] add_product_to_cart() PASSED 
+2023-06-06 16:48:59,857 ERROR [Log] go_to_cart() FAILED with cause : Product was not added to cart! ==> expected: <true> but was: <false> 
+2023-06-06 16:56:18,629 INFO  [Log] search_a_product() PASSED 
+2023-06-06 16:56:25,064 INFO  [Log] select_a_product() PASSED 
+2023-06-06 16:56:43,187 INFO  [Log] add_product_to_cart() PASSED 
+2023-06-06 16:56:47,534 ERROR [Log] go_to_cart() FAILED with cause : invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAFA', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\safa_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 798ebcc79a1e53065520c54f6e7d379a
+*** Element info: {Using=css selector, value=2jxhf4-g6pq5p-dinl6l-wvv9b5} 
+2023-06-06 17:09:22,267 INFO  [Log] search_a_product() PASSED 
+2023-06-06 17:09:36,669 INFO  [Log] select_a_product() PASSED 
+2023-06-06 17:09:45,564 INFO  [Log] add_product_to_cart() PASSED 
+2023-06-06 17:09:48,548 ERROR [Log] go_to_cart() FAILED with cause : Product was not added to cart! ==> expected: <true> but was: <false> 
+2023-06-06 17:27:35,978 INFO  [Log] search_a_product() PASSED 
+2023-06-06 17:27:41,557 INFO  [Log] select_a_product() PASSED 
+2023-06-06 17:27:44,243 INFO  [Log] add_product_to_cart() PASSED 
+2023-06-06 17:27:46,053 ERROR [Log] go_to_cart() FAILED with cause : Product was not added to cart! ==> expected: <true> but was: <false> 
